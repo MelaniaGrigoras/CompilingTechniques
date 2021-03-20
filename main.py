@@ -113,7 +113,7 @@ def concatenation(vertex, firstSymbol, secondSymbol, graph):
     new_vertex = new_vertex + 2
     return new_vertex
 
-
+# TODO fix union method
 def union(vertex, firstSymb, secondSymb, graph):
     new_vertex = max_vertex() + 1
     addVertex(new_vertex, graph)
